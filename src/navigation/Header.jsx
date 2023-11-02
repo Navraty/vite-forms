@@ -12,11 +12,12 @@ import React from 'react';
         <button className="w-full md:w-1/5 px-3 mb-6 md:mb-0">
           <div className="relative">
             <select
-              className="block appearance-none w-full bg-gray-100 border border-red-200 text-red-400 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-red-500"
+              className="block appearance-none w-full bg-gray(-100 border border-red-200 text-red-400 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-red-500"
               placeholder=""
             >
               <option>Faire une contribution</option>
               <option>Financiere</option>
+              <option>Intelectuelle</option>
               <option>Materielle</option>
             </select>
             <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">

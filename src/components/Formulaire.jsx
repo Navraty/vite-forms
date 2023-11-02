@@ -1,12 +1,14 @@
 import "react-router-dom";
 import React from "react";
-
+import {AiOutlineArrowRight} from "react-icons/ai"
+import {AiOutlineArrowLeft} from "react-icons/ai"
 function Formulaire() {
   return (
     <div>
     
 
-      <div className="py-5 lg:py-5 px-[30%] ">
+      <div className="
+                    py-5 lg:py-5 lg:px-[30%]  ">
         <h1 className="text-4xl font-bold px-3">Formulaire d'adhesion</h1>
         <p className="">
           Devenir un observateur citoyen de la gouvernance publique
@@ -14,7 +16,7 @@ function Formulaire() {
       </div>
 
       <div
-        className="flex items-center 
+        className="px-5
                 lg:flex lg:ml-[30%] 
                 md:flex  md:ml-[30%]
                 "
@@ -156,24 +158,17 @@ function Formulaire() {
             </div>
           </div>
           <div className="flex flex-wrap -mx-3 mb-6"></div>
-          <div className="flex ml-10 gap-5 w-[150px] md:flex-row lg:flex lg:flex-row justify-between gap-5">
+
+          <div className="flex  gap-5  md:flex-row lg:flex lg:flex-row justify-between gap-5">
+            
             <button className="bg-[#cf0d0dff] text-white rounded-lg px-10 py-2 flex justify-between gap-2 items-center">
-              <img
-                src="img/icons8-flèche-gauche-50.png"
-                className="w-[20px]"
-                alt="fleche"
-              />
+            <AiOutlineArrowLeft/>
               Precedent
             </button>
 
             <button className="bg-blue-500 text-white rounded-lg px-10 py-2 flex justify-between gap-4 items-center ">
-              {" "}
               suivant
-              <img
-                src="img/icons8-flèche-droite-50.png"
-                className="w-[20px]"
-                alt="fleche"
-              />
+              <AiOutlineArrowRight/>
             </button>
           </div>
         </form>
